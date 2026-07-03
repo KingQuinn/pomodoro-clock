@@ -2,7 +2,9 @@ import time
 
 
 class Pomodoro:
-    def __init__(self):
+    def __init__(self, start, stop):
+        self.start = start
+        self.stop = stop
         pass
     def set_timer(total_time):
         pass
