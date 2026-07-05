@@ -2,6 +2,7 @@ import time
 
 
 class Pomodoro:
+    # clock should be able to start, stop, and count intervals
     def __init__(self, start, stop):
         self.start = start
         self.stop = stop
